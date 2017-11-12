@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.1.4'
+gem 'bcrypt', '3.1.11'
 gem 'jquery-rails', '4.3.1'
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma', '~> 3.7'
@@ -21,6 +22,8 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'pry'
+  gem 'pry-rails'
 end
 
 group :development do
