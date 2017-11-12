@@ -52,7 +52,7 @@ jobs:
 #                            --out /tmp/test-results/rspec.xml \
 #                            --format progress \
 #                            "${TEST_FILES}"
-            bnundle exec rails test
+            bundle exec rails test
 
       # collect reports
       - store_test_results:
